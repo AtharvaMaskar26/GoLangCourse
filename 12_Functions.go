@@ -6,6 +6,8 @@ func addition(a, b int) int {
 	return a + b
 }
 
+true
+
 func isThere(name, alphabet string) (bool, int) {
 	for index, letter := range name {
 		if string(letter) == alphabet {
